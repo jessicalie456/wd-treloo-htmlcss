@@ -12,11 +12,53 @@
   <!-- SECTION 1: Header & Hero -->
   <header>
     <!-- TODO: Tambahkan logo, menu navigasi, dan tombol Blog -->
+    <h1>Treloo</h1>
+    <section class="hero">
+      <nav>
+      <ul>
+        <li><a href = "#review">Review</a></li>
+        <li><a href = "#tips">Tips</a></li>
+        <li><a href = "#alert">Alert</a></li>
+        <li><a href = "#Blog">Blog</a></li>
+      </ul>
+      
+    </nav>
   </header>
 
   <section class="hero">
     <!-- TODO: Tambahkan heading, subheading, background image -->
+    <h1>Discover Your Life, Travel Where You Want</h1>
+    <h5>Would you explore natur paradise in the world</h5>
+    <img src="D:\UTS_WEB_BD4B\wd-treloo-htmlcss\assets\pexels-francesco-ungaro-2835436 1.jpg"/>
     <!-- TODO: Tambahkan form pencarian (Flight/Hotel, input lokasi & tanggal) -->
+    <section class="section form-section">
+      <h3>Flight / Hotel Switcher</h3>
+      <form action="#" method="POST">
+        <label for="living">Living From:</label>
+        <select id="living" name="living" required>
+          <option value="">pilih</option>
+          <option value="jakarta">Jakarta</option>
+          <option value="Bandung">Bandung</option>
+          <option value="kalimantan barat">Kalimantan Barat</option>
+          </select>        
+          <br>
+  
+        <label for="going">Going To:</label>
+        <option value="">Pilih</option>
+          <option value="jakarta">Jakarta</option>
+          <option value="Bandung">Bandung</option>
+          <option value="kalimantan barat">Kalimantan Barat</option>
+          </select>
+        
+        <label for="leave">Leave:</label>
+        <input type="date" id="leave" name="leave" required>
+        
+        <label for="return">Return:</label>
+        <input type="date" id="return" name="return" required>
+        
+  
+  
+      </form>
   </section>
 
   <!-- SECTION 2: Recommended Destination -->
