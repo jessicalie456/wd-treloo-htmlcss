@@ -1,3 +1,18 @@
 :root{
     background-color: #fff8f0;
 }
+
+.header{
+    background-image: "D:\UTS_WEB_BD4B\wd-treloo-htmlcss\assets\pexels-francesco-ungaro-2835436 1.jpg"
+}
+img[src*="jakarta"]{
+    color:lavender;
+}
+
+.recommended{
+    background-color: aquamarine;
+}
+
+.global-info{
+    background-color: bisque;
+}
